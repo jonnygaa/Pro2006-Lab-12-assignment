@@ -26,6 +26,13 @@ stack run test.txt
 20 4 div       5 (integer division)
 20 4 /         5.0 (float division)
 
+### Bool Operations
+20 10 <       False
+10 10 ==      True
+False False &&      False
+False True ||       True
+False not"          True
+
 ### Stack Manipulation
 10 dup         # [10, 10]
 10 20 swap     # [20, 10]
